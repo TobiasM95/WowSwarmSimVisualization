@@ -115,9 +115,9 @@ def main() -> None:
         # fig.patch.set_facecolor("blue")
         fig.patch.set_alpha(0)
         ax.patch.set_alpha(0)
-        ax.xaxis.label.set_color("white")
-        ax.yaxis.label.set_color("white")
-        ax.tick_params(colors="white", which="both")
+        ax.xaxis.label.set_color("#dddddd")
+        ax.yaxis.label.set_color("#dddddd")
+        ax.tick_params(colors="#dddddd", which="both")
 
         # print(type(fig))
 
